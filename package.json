@@ -1,0 +1,17 @@
+{
+  "name": "gh-export",
+  "version": "1.0.0",
+  "description": "Exports data from GitHub to CSV files given a seed user or organization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Foster",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.26.1",
+    "csv-stringify": "6.0.5",
+    "dotenv": "16.0.0",
+    "fast-csv": "4.3.6"
+  }
+}
